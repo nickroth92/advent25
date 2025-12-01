@@ -1,8 +1,3 @@
-Number.prototype.mod = function (n) {
-  "use strict";
-  return ((this % n) + n) % n;
-};
-
 var num = 50;
 var ans = 0;
 var tmp;
