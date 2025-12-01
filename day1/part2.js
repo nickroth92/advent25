@@ -25,6 +25,6 @@ for (var i = 0; i < input.length; i++){
         }
         num = (((num - tmp) % 100) + 100) % 100;
     }
-    console.log([num, ans])
+    //console.log([num, ans])
 }
 console.log(ans);
